@@ -1,0 +1,176 @@
+*{
+    padding:0rem;
+    margin:0rem
+}
+
+html{
+    font-size:62.5%
+}
+body{
+    background:linear-gradient(to  right,purple,rgb(66, 1, 58));
+    background-repeat: none;
+    background-size:cover;
+    height:300rem;
+    width:150rem
+}
+
+.container{
+       margin-top:10rem;
+       height:150rem;
+       overflow: hidden;
+       width:151.9rem;
+    
+}
+header nav ul {
+    list-style:none;
+    margin-right:29rem
+}
+header nav ul li{
+    float:right;
+    padding:5rem;
+    margin-top:-1.5rem
+}
+header nav ul li a{
+    font-size:3rem;
+    color:white;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.4rem black ;
+}
+
+header nav ul li a:hover{
+           text-decoration: underline;
+           color:yellow
+}
+
+header{
+    overflow: hidden;
+    background-color: rgb(222, 117, 222);
+    height:11rem;
+}
+
+.logo{
+    position:relative;
+    height:12rem;
+    margin-left:58rem;
+    margin-top:-rem;
+    height:34rem;
+    border-radius:50rem;
+    background:linear-gradient(yellow,rgb(42, 42, 245),rgb(255, 0, 43),rgb(13, 224, 13));
+    padding:1rem;
+    border:0.1rem solid black;
+    opacity:0%;
+    animation:log 2s forwards
+}
+
+.log{
+    height: 14rem;
+    position:absolute;
+    top:-3rem
+}
+
+.info{
+    font-size:4rem;
+    text-align:center;
+    margin-left:0rem;
+    color:white;
+    text-shadow:0.1rem 0.1rem 0.3rem black;
+    position:relative;
+    top:35rem;
+    font-weight:bold;
+    text-transform: capitalize;
+    margin-top:22rem
+}
+
+.intro{
+    font-size:7rem;
+    text-transform:uppercase;
+    color:rgb(229, 255, 0);
+    font-family: arial;
+    margin-left:53rem;
+    text-shadow:0.10rem 0.2rem 0.3rem  black;
+    margin-top:2rem;
+    width:0rem;
+    overflow:hidden;
+    animation:anime 3s infinite;
+    border-right:solid;
+    border-width:0.2rem;
+    white-space:nowrap;
+}
+
+.pc{
+    height: 11rem;
+    position: absolute;
+    right:0rem;
+    
+}
+
+.wpc{
+     margin-left:57rem;
+     height:35rem;
+     width:40rem;
+     margin-top:25rem;
+     margin-bottom:5rem;
+     opacity:0%;
+     transition: all 1s;
+}
+
+.web{
+    height:90rem;
+    overflow: hidden;
+}
+.web h2{
+    font-size:5rem;
+    margin-top:-2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color:red;
+    font-weight: bolder;
+    opacity:0%;
+    transition: all 2s;
+}
+.web p{
+    margin-top:3rem;
+    font-size:3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    color:white;
+    opacity:0%;
+    transition:all 2s
+}
+
+
+@keyframes anime{
+    
+    100%{
+        width:36%
+    }
+}
+
+@keyframes log{
+        100%{
+            opacity:100%
+        }
+}
+
+@keyframes int{
+    100%{
+        opacity: 100%;
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:40%
+    }
+ 
+}
+
+@media(max-width:768px){
+    html{
+        font-size:38%
+    }
+    
+}
